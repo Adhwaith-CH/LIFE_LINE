@@ -3,6 +3,10 @@ session_start();
 include("../Assets/Connection/connection.php");
 
 
+
+
+
+
 if(isset($_POST['btn_submit'])){
     $pass=$_POST['txt_pass'];
     $cpass=$_POST['txt_cpass'];
